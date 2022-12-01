@@ -6,7 +6,7 @@ import com.opencsv.bean.CsvDate;
 
 import java.time.LocalDateTime;
 
-public class TransactionData {
+public class TransactionInputData {
 
     @CsvDate(value = "uuuu-MM-dd HH:mm:ss.n")
     @CsvBindByName
